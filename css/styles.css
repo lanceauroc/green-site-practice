@@ -1,0 +1,102 @@
+body {
+    background-color: cyan;
+}
+
+/* Section 1 - Beverage Process Banner */
+
+section.__beverage_process_banner {
+    background-color: black;
+    background-image: url('/assets/img/bev-process-banner.jpg');
+    padding: 100px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: overlay;
+    position: relative;
+    overflow: hidden;
+}
+
+section.__beverage_process_banner .__content_left {
+    padding-left: 150px;
+}
+
+section.__beverage_process_banner .__content_left img.__banner_vector_overlay{
+    position: absolute;
+    top: -40%;
+    left: 0;
+    width: 100%;
+}
+
+section.__beverage_process_banner .__content_left h1 {
+    color: #fff;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+}
+
+section.__beverage_process_banner .__content_left p {
+    color: #fff;
+    font-family: 'Cantarell', sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+section.__beverage_process_banner .__content_right {
+    padding-right: 150px;
+}
+
+section.__beverage_process_banner .__content_right h1 {
+    color: #fff;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+section.__beverage_process_banner .__content_right p {
+    color: #fff;
+    font-family: 'Cantarell', sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+/* Media queries for responsive design */
+
+@media all and (max-width: 1199px) {
+    body {
+        background-color: red;
+    }
+
+    section.__beverage_process_banner .__content_left img.__banner_vector_overlay{
+        width: 50%;
+    }
+
+    section.__beverage_process_banner .__content_right {
+        padding-right: 150px;
+        padding-left: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 4.333333%;
+        margin-right: 4.333333%;
+    }
+}
+
+@media all and (max-width: 991px) {
+    body {
+        background-color: brown;
+    }
+}
+
+@media all and (max-width: 767px) {
+    body {
+        background-color: forestgreen;
+    }
+}
+
+@media all and (max-width: 656px) {
+    body {
+        background-color: yellow;
+    }
+}
