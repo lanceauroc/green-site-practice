@@ -87,16 +87,50 @@ section.__beverage_process_banner .__content_right p {
     body {
         background-color: brown;
     }
+    
+    section.__beverage_process_banner .__content_left .__contents_wrapper{
+        /* background-color: black; */
+        padding-right: 140px;
+    }
 }
 
 @media all and (max-width: 767px) {
     body {
         background-color: forestgreen;
     }
+
+    section.__beverage_process_banner .__content_left img.__banner_vector_overlay{
+        width: 80%;
+    }
+
 }
 
-@media all and (max-width: 656px) {
+@media all and (max-width: 575px) {
     body {
         background-color: yellow;
     }
+
+    section.__beverage_process_banner {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    section.__beverage_process_banner .__content_left img.__banner_vector_overlay{
+        width: 110%;
+    }
+
+    section.__beverage_process_banner .__content_left{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    section.__beverage_process_banner .__content_left .__contents_wrapper{
+        padding-right: 0px;
+    }
+
+    section.__beverage_process_banner .__content_right {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
 }
