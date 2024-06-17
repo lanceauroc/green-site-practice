@@ -1,0 +1,295 @@
+body {
+    background-color: cyan;
+}
+
+/* Section 1 - Beverage Process Banner */
+
+section.__beverage_process_banner {
+    background-color: black;
+    background-image: url('/assets/img/bev-process-banner.jpg');
+    padding: 100px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: overlay;
+    position: relative;
+    overflow: hidden;
+}
+
+section.__beverage_process_banner .__content_left {
+    padding-left: 150px;
+}
+
+section.__beverage_process_banner .__content_left img.__banner_vector_overlay{
+    position: absolute;
+    top: -40%;
+    left: 0;
+    width: 100%;
+}
+
+section.__beverage_process_banner .__content_left h1 {
+    color: #fff;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+}
+
+section.__beverage_process_banner .__content_left p {
+    color: #fff;
+    font-family: 'Cantarell', sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+section.__beverage_process_banner .__content_right {
+    padding-right: 150px;
+}
+
+section.__beverage_process_banner .__content_right h1 {
+    color: #fff;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+section.__beverage_process_banner .__content_right p {
+    color: #fff;
+    font-family: 'Cantarell', sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Section 2 - Beverage Process Equipment */
+
+section.__beverage_process_equipment {
+    background-color: #fff;
+}
+
+section.__beverage_process_equipment .__content_left {
+    padding-left: 115px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+section.__beverage_process_equipment .__content_left h2 {
+    font-size: 35px;
+    font-family: 'Cantarell', sans-serif;
+    margin-bottom: 25px;
+}
+
+section.__beverage_process_equipment .__content_left p {
+    font-size: 16px;
+    font-family: 'Cantarell', sans-serif;
+    margin-bottom: 15px;
+}
+
+section.__beverage_process_equipment .__content_right img{
+    /* background-color: aqua; */
+    width: 90%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin-left: 79px;
+}
+
+
+/* Section 3 - Industrial Piping */
+
+section.__industrial_piping {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url('/assets/img/types-of-piping-min.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.__industrial_piping .__content_left.__top_element img {
+    padding-left: 115px;
+    width: 97%;
+}
+
+section.__industrial_piping .__content_right.__top_element {
+    padding-right: 115px;
+}
+
+section.__industrial_piping .__content_right.__top_element h3 {
+    font-family: 'Cantarell', sans-serif;
+    font-size: 30px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+section.__industrial_piping .__content_right.__top_element p {
+    font-family: 'Cantarell', sans-serif;
+    font-size: 16px;
+}
+
+
+
+/* Media queries for responsive design */
+
+@media all and (max-width: 1199px) {
+    body {
+        background-color: red;
+    }
+
+    section.__beverage_process_banner .__content_left img.__banner_vector_overlay{
+        width: 50%;
+    }
+
+    section.__beverage_process_banner .__content_right {
+        padding-right: 150px;
+        padding-left: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 4.333333%;
+        margin-right: 4.333333%;
+    }
+
+    section.__beverage_process_equipment .__content_right .__contents_wrapper {
+       /* background-color: black; */
+       margin-top: 150px;
+    }
+
+    section.__beverage_process_equipment .__content_right img {
+        margin-left: 67px;
+    }
+
+    section.__industrial_piping {
+        padding-top: 0;
+    }
+
+    section.__industrial_piping .__content_right.__top_element h3 {
+        padding-top: 0;
+    }
+}
+
+@media all and (min-width: 992px) {
+    section.__beverage_process_equipment .__content_left img {
+        display: none;
+    }
+}
+
+@media all and (max-width: 991px) {
+    body {
+        background-color: brown;
+    }
+
+    section.__beverage_process_equipment .__content_left {
+        padding-top: 80px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    section.__beverage_process_equipment .__content_left img {
+        width: 100%;
+    }
+    
+    section.__beverage_process_banner .__content_left .__contents_wrapper {
+        /* background-color: black; */
+        padding-right: 140px;
+    }
+
+    section.__beverage_process_equipment .__content_right {
+        display: none;
+    }
+
+    section.__industrial_piping .__content_left.__top_element img {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    section.__industrial_piping .__content_right.__top_element h3 {
+        padding-left: 30px;
+    }
+
+    section.__industrial_piping .__content_right.__top_element p {
+        padding-left: 30px;
+    }
+
+
+}
+
+@media all and (max-width: 767px) {
+    body {
+        background-color: forestgreen;
+    }
+
+    section.__beverage_process_banner .__content_left img.__banner_vector_overlay{
+        width: 80%;
+    }
+
+    section.__beverage_process_equipment .__content_left {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+
+    section.__industrial_piping .__content_left.__top_element img {
+        padding-left: 60px;
+        padding-right: 30px;
+    }
+
+    section.__industrial_piping .__content_right.__top_element {
+        padding-right: 15px;
+    }
+
+    section.__industrial_piping .__content_right.__top_element h3 {
+        padding-left: 0;
+    }
+
+    section.__industrial_piping .__content_right.__top_element p {
+        padding-left: 0;
+        text-align: justify;
+    }
+
+}
+
+@media all and (max-width: 575px) {
+    body {
+        background-color: yellow;
+    }
+
+    section.__beverage_process_banner {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    section.__beverage_process_banner .__content_left img.__banner_vector_overlay{
+        width: 110%;
+    }
+
+    section.__beverage_process_banner .__content_left{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    section.__beverage_process_banner .__content_left .__contents_wrapper{
+        padding-right: 0px;
+    }
+
+    section.__beverage_process_banner .__content_right {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    section.__beverage_process_equipment .__content_left {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    section.__industrial_piping .__content_left.__top_element {
+        padding-left: 15px;
+        padding-right: 0;
+    }
+
+    section.__industrial_piping .__content_left.__top_element img {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+}
