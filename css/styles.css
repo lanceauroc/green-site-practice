@@ -218,8 +218,13 @@ section.__industrial_piping .__content_right.__mid_element img {
 
     section.__beverage_process_equipment .__content_left img {
         width: 100%;
+        margin-bottom: 30px;
     }
     
+    section.__beverage_process_equipment .__content_left .__contents_wrapper h2 {
+        display: none;
+    }
+
     section.__beverage_process_banner .__content_left .__contents_wrapper {
         padding-right: 140px;
     }
@@ -282,11 +287,15 @@ section.__industrial_piping .__content_right.__mid_element img {
         width: 80%;
     }
 
+    /* section.__beverage_process_equipment .__content_left .__contents_wrapper {
+        background-color: black;
+    } */
+
     section.__beverage_process_equipment .__content_left {
-        padding-top: 80px;
-        padding-bottom: 80px;
-        padding-left: 130px;
-        padding-right: 130px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     section.__industrial_piping .__content_left.__top_element img {
