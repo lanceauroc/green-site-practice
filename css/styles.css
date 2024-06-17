@@ -83,8 +83,11 @@ section.__beverage_process_equipment .__content_left p {
     margin-bottom: 15px;
 }
 
-section.__beverage_process_equipment .__content_right img {
-    background-color: black;
+section.__beverage_process_equipment .__content_right img{
+    /* background-color: aqua; */
+    width: 90%;
+    padding-top: 150px;
+    margin-left: 79px;
 }
 
 
