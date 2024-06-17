@@ -59,6 +59,35 @@ section.__beverage_process_banner .__content_right p {
     text-align: center;
 }
 
+/* Section 2 - Beverage Process Equipment */
+
+section.__beverage_process_equipment {
+    background-color: #fff;
+}
+
+section.__beverage_process_equipment .__content_left {
+    padding-left: 115px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+section.__beverage_process_equipment .__content_left h2 {
+    font-size: 35px;
+    font-family: 'Cantarell', sans-serif;
+    margin-bottom: 25px;
+}
+
+section.__beverage_process_equipment .__content_left p {
+    font-size: 16px;
+    font-family: 'Cantarell', sans-serif;
+    margin-bottom: 15px;
+}
+
+
+
+
+
 
 
 /* Media queries for responsive design */
