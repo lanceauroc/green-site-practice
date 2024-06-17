@@ -71,7 +71,6 @@ section.__beverage_process_equipment .__content_left {
     padding-bottom: 100px;
 }
 
-
 section.__beverage_process_equipment .__content_left h2 {
     font-size: 35px;
     font-family: 'Cantarell', sans-serif;
@@ -84,9 +83,9 @@ section.__beverage_process_equipment .__content_left p {
     margin-bottom: 15px;
 }
 
-
-
-
+section.__beverage_process_equipment .__content_right img {
+    background-color: black;
+}
 
 
 
