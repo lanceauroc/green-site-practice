@@ -124,15 +124,37 @@ section.__beverage_process_equipment .__content_right img{
     }
 }
 
+@media all and (min-width: 992px) {
+    section.__beverage_process_equipment .__content_left img {
+        display: none;
+    }
+}
+
 @media all and (max-width: 991px) {
     body {
         background-color: brown;
     }
+
+    section.__beverage_process_equipment .__content_left {
+        padding-top: 80px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    section.__beverage_process_equipment .__content_left img {
+        width: 100%;
+    }
     
-    section.__beverage_process_banner .__content_left .__contents_wrapper{
+    section.__beverage_process_banner .__content_left .__contents_wrapper {
         /* background-color: black; */
         padding-right: 140px;
     }
+
+    section.__beverage_process_equipment .__content_right {
+        display: none;
+    }
+
+
 }
 
 @media all and (max-width: 767px) {
