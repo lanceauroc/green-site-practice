@@ -115,6 +115,8 @@ section.__industrial_piping .__content_right {
 section.__industrial_piping .__content_right h3 {
     font-family: 'Cantarell', sans-serif;
     font-size: 30px;
+    padding-top: 50px;
+    margin-bottom: 30px;
 }
 
 section.__industrial_piping .__content_right p {
@@ -153,6 +155,14 @@ section.__industrial_piping .__content_right p {
     section.__beverage_process_equipment .__content_right img {
         margin-left: 67px;
     }
+
+    section.__industrial_piping {
+        padding-top: 0;
+    }
+
+    section.__industrial_piping .__content_right h3 {
+        padding-top: 0;
+    }
 }
 
 @media all and (min-width: 992px) {
@@ -185,6 +195,19 @@ section.__industrial_piping .__content_right p {
         display: none;
     }
 
+    section.__industrial_piping .__content_left img {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    section.__industrial_piping .__content_right h3 {
+        padding-left: 30px;
+    }
+
+    section.__industrial_piping .__content_right p {
+        padding-left: 30px;
+    }
+
 
 }
 
@@ -202,6 +225,24 @@ section.__industrial_piping .__content_right p {
         padding-bottom: 80px;
         padding-left: 130px;
         padding-right: 130px;
+    }
+
+    section.__industrial_piping .__content_left img {
+        padding-left: 60px;
+        padding-right: 30px;
+    }
+
+    section.__industrial_piping .__content_right {
+        padding-right: 15px;
+    }
+
+    section.__industrial_piping .__content_right h3 {
+        padding-left: 0;
+    }
+
+    section.__industrial_piping .__content_right p {
+        padding-left: 0;
+        text-align: justify;
     }
 
 }
@@ -239,6 +280,11 @@ section.__industrial_piping .__content_right p {
         padding-bottom: 50px;
         padding-left: 50px;
         padding-right: 50px;
+    }
+
+    section.__industrial_piping .__content_left img {
+        padding-left: 0;
+        padding-right: 0;
     }
     
 }
