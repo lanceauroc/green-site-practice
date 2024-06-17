@@ -323,7 +323,19 @@ section.__industrial_piping .__content_right.__mid_element img {
         text-align: justify;
     }
 
+    section.__industrial_piping .__content_left.__mid_element {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
+    section.__industrial_piping .__content_left.__mid_element img {
+        padding-left: 60px;
+        padding-right: 30px;
+    }
+
+    section.__industrial_piping .__content_left.__mid_element h3 {
+        font-size: 25px;
+    }
 
 }
 
