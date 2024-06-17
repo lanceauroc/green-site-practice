@@ -103,23 +103,23 @@ section.__industrial_piping {
     background-size: cover;
 }
 
-section.__industrial_piping .__content_left img {
+section.__industrial_piping .__content_left.__top_element img {
     padding-left: 115px;
     width: 97%;
 }
 
-section.__industrial_piping .__content_right {
+section.__industrial_piping .__content_right.__top_element {
     padding-right: 115px;
 }
 
-section.__industrial_piping .__content_right h3 {
+section.__industrial_piping .__content_right.__top_element h3 {
     font-family: 'Cantarell', sans-serif;
     font-size: 30px;
     padding-top: 50px;
     margin-bottom: 30px;
 }
 
-section.__industrial_piping .__content_right p {
+section.__industrial_piping .__content_right.__top_element p {
     font-family: 'Cantarell', sans-serif;
     font-size: 16px;
 }
@@ -160,7 +160,7 @@ section.__industrial_piping .__content_right p {
         padding-top: 0;
     }
 
-    section.__industrial_piping .__content_right h3 {
+    section.__industrial_piping .__content_right.__top_element h3 {
         padding-top: 0;
     }
 }
@@ -195,16 +195,16 @@ section.__industrial_piping .__content_right p {
         display: none;
     }
 
-    section.__industrial_piping .__content_left img {
+    section.__industrial_piping .__content_left.__top_element img {
         padding-left: 150px;
         padding-right: 150px;
     }
 
-    section.__industrial_piping .__content_right h3 {
+    section.__industrial_piping .__content_right.__top_element h3 {
         padding-left: 30px;
     }
 
-    section.__industrial_piping .__content_right p {
+    section.__industrial_piping .__content_right.__top_element p {
         padding-left: 30px;
     }
 
@@ -227,20 +227,20 @@ section.__industrial_piping .__content_right p {
         padding-right: 130px;
     }
 
-    section.__industrial_piping .__content_left img {
+    section.__industrial_piping .__content_left.__top_element img {
         padding-left: 60px;
         padding-right: 30px;
     }
 
-    section.__industrial_piping .__content_right {
+    section.__industrial_piping .__content_right.__top_element {
         padding-right: 15px;
     }
 
-    section.__industrial_piping .__content_right h3 {
+    section.__industrial_piping .__content_right.__top_element h3 {
         padding-left: 0;
     }
 
-    section.__industrial_piping .__content_right p {
+    section.__industrial_piping .__content_right.__top_element p {
         padding-left: 0;
         text-align: justify;
     }
@@ -282,7 +282,12 @@ section.__industrial_piping .__content_right p {
         padding-right: 50px;
     }
 
-    section.__industrial_piping .__content_left img {
+    section.__industrial_piping .__content_left.__top_element {
+        padding-left: 15px;
+        padding-right: 0;
+    }
+
+    section.__industrial_piping .__content_left.__top_element img {
         padding-left: 0;
         padding-right: 0;
     }
