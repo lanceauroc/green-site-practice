@@ -190,6 +190,10 @@ section.__industrial_piping .__content_right.__mid_element img {
     section.__industrial_piping .__content_right.__top_element h3 {
         padding-top: 0;
     }
+
+    section.__industrial_piping .__content_left.__mid_element {
+        padding-left: 15px;
+    }
 }
 
 @media all and (min-width: 992px) {
@@ -227,14 +231,42 @@ section.__industrial_piping .__content_right.__mid_element img {
         padding-right: 150px;
     }
 
-    section.__industrial_piping .__content_right.__top_element h3 {
-        padding-left: 30px;
+    section.__industrial_piping .__content_right.__top_element {
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
-    section.__industrial_piping .__content_right.__top_element p {
-        padding-left: 30px;
+    section.__industrial_piping .__mid_element_padding {
+        padding-left: 0;
+        padding-right: 0;
     }
 
+    section.__industrial_piping .__content_left.__mid_element {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    section.__industrial_piping .__content_left.__mid_element img {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    section.__industrial_piping .__content_left.__mid_element h3 {
+        padding-top: 12px;
+    }
+
+    section.__industrial_piping .__content_left.__mid_element p {
+        padding-right: 0;
+    }
+
+    section.__industrial_piping .__content_left.__mid_element {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    section.__industrial_piping .__content_right.__mid_element {
+        display: none;
+    }
 
 }
 
