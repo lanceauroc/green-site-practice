@@ -200,6 +200,10 @@ section.__industrial_piping .__content_right.__mid_element img {
         display: none;
     }
 
+    section.__beverage_process_equipment .__content_left .__contents_wrapper h2 {
+        display: none;
+    }
+
     section.__industrial_piping .__content_left.__mid_element img {
         display: none;
     }
@@ -211,9 +215,10 @@ section.__industrial_piping .__content_right.__mid_element img {
     }
 
     section.__beverage_process_equipment .__content_left {
-        padding-top: 80px;
-        padding-left: 150px;
-        padding-right: 150px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     section.__beverage_process_equipment .__content_left img {
