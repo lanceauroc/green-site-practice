@@ -175,7 +175,6 @@ section.__industrial_piping .__content_right.__mid_element img {
     }
 
     section.__beverage_process_equipment .__content_right .__contents_wrapper {
-       /* background-color: black; */
        margin-top: 150px;
     }
 
@@ -200,6 +199,10 @@ section.__industrial_piping .__content_right.__mid_element img {
     section.__beverage_process_equipment .__content_left img {
         display: none;
     }
+
+    section.__industrial_piping .__content_left.__mid_element img {
+        display: none;
+    }
 }
 
 @media all and (max-width: 991px) {
@@ -218,7 +221,6 @@ section.__industrial_piping .__content_right.__mid_element img {
     }
     
     section.__beverage_process_banner .__content_left .__contents_wrapper {
-        /* background-color: black; */
         padding-right: 140px;
     }
 
@@ -273,6 +275,7 @@ section.__industrial_piping .__content_right.__mid_element img {
 @media all and (max-width: 767px) {
     body {
         background-color: forestgreen;
+        overflow-x: scroll;
     }
 
     section.__beverage_process_banner .__content_left img.__banner_vector_overlay{
