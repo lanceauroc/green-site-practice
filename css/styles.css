@@ -285,16 +285,11 @@ section.__industrial_piping .__content_right.__mid_element img {
 @media all and (max-width: 767px) {
     body {
         background-color: forestgreen;
-        overflow-x: scroll;
     }
 
     section.__beverage_process_banner .__content_left img.__banner_vector_overlay{
         width: 80%;
     }
-
-    /* section.__beverage_process_equipment .__content_left .__contents_wrapper {
-        background-color: black;
-    } */
 
     section.__beverage_process_equipment .__content_left {
         padding-top: 50px;
@@ -303,23 +298,32 @@ section.__industrial_piping .__content_right.__mid_element img {
         padding-right: 30px;
     }
 
+    section.__industrial_piping .__content_left.__top_element {
+        padding-left: 80px;
+        padding-right: 50px;
+    }
+
     section.__industrial_piping .__content_left.__top_element img {
-        padding-left: 60px;
-        padding-right: 30px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     section.__industrial_piping .__content_right.__top_element {
+        padding-left: 15px;
         padding-right: 15px;
     }
 
     section.__industrial_piping .__content_right.__top_element h3 {
         padding-left: 0;
+        font-size: 25px;
     }
 
     section.__industrial_piping .__content_right.__top_element p {
         padding-left: 0;
         text-align: justify;
     }
+
+
 
 }
 
