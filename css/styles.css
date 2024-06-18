@@ -159,6 +159,10 @@ section.__best_food .__content_upper h2 {
     font-family: 'Cantarell', sans-serif;
 }
 
+section.__best_food .__content_block .__content_header {
+    display: flex;
+}
+
 /* Media queries for responsive design */
 
 @media all and (max-width: 1199px) {
