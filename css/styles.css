@@ -151,7 +151,9 @@ section.__industrial_piping .__content_right.__mid_element img {
 }
 
 /* Section 4 - Best Food and Beverage */
-
+section.__best_food {
+    background-image: url('/assets/img/why-industrialph.jpg');
+}
 
 /* Media queries for responsive design */
 
