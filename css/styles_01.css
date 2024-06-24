@@ -31,18 +31,25 @@ section.__sample_section--one {
     background-color: #fff;
 }
 
-section.__sample_section--one .__content--header {
+/* section.__sample_section--one .__content--header {
     background-color: pink;
-}
+} */
 
 section.__sample_section--one .__content--top-left {
-    background-color: violet;
+    /* background-color: violet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.__sample_section--one .__content--top-left  h2 {
+    margin-bottom: 30px;
 }
 
 section.__sample_section--one .__content--top-right {
     display: flex;
     justify-content: flex-end;
     padding: 0;
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
 }
 
