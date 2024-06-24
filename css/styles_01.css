@@ -54,3 +54,16 @@ section.__sample_section--one .__content--top-right {
 }
 
 /* Section 2 */
+section.__sample_section--two .__content--left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.__sample_section--two .__content--left h1 {
+    font-family: "Fjarella One", sans-serif;
+    font-size: 60px;
+    line-height: 48px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
